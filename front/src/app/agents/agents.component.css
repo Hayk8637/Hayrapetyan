@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.all {
+  width: 100%;
+  text-align: center;
+}
+.add {
+  width: 60%;
+  margin: 40px auto auto;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.inline{
+  display: inline-block;
+}
+.none {
+  display: none;
+}
+.add > input {
+  display: block;
+  width: 80%;
+  margin: 15px auto auto;
+}
+
+.add > button {
+  margin-top: 15px;
+}
+
+.agents {
+  width: 90%;
+  margin: auto;
+}
+.agents > button {
+  display: flex;
+  left: 0;
+}
+
+.agents > table {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+}

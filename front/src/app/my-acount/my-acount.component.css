@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.log {
+  justify-items: center;
+  width: 100%;
+  padding: 35px;
+  height: 100px;
+  text-align: right;
+  cursor: pointer;
+}
+.log > a {
+  text-decoration: none;
+  color: black;
+  size: 24px;
+}
+.log > a > span > img {
+  width: 16px;
+}

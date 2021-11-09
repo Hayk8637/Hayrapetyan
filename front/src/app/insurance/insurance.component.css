@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.form {
+  text-align: center;
+}
+
+.input {
+  display: block;
+  width: 800px;
+  height: 60px;
+  margin: 20px auto auto;
+  border: none;
+  border-bottom: grey 2px solid;
+}
+
+.apply {
+  margin: 30px auto auto;
+}
+.applyButton {
+  margin-left: 10px;
+}
+
+

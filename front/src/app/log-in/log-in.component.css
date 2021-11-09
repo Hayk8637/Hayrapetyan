@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+.login {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  background-image: url("../../assets/img/main.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: calc(50vh - 200px) 0 0;
+}
+
+
+
+.log0 {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border-radius: 2%;
+  border: #3b4097 5px solid;
+  text-align: center;
+  padding-top: 30px;
+  margin: auto;
+}
+
+.log0 > form  {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.log0 > form > input {
+  margin: auto;
+  width: 100%;
+  height: 30px;
+  display: block;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.log0 > form > button {
+  margin-top: 30px;
+  width: 75px;
+  padding: 5px 10px;
+}
+
+.forgot {
+  text-align: right;
+  padding: 20px;
+}

@@ -1,0 +1,62 @@
+<div class="all">
+  <div class="nav">
+    <div class="logo">
+      <a>
+        <img id="logo" src="../../assets/img/logo.png" alt="">
+      </a>
+    </div>
+    <div class="navigation" style="color: #3b4097">
+      <ul>
+        <li >
+          <h3>Profile</h3>
+          <ul class="ulType">
+            <li>
+              <a href="" routerLink="agents"><pre>  Agents</pre> </a>
+            </li>
+          </ul>
+
+        </li>
+        <li>
+          <h3>Loads</h3>
+          <ul class="ulType">
+            <li>
+              <a href="" routerLink="new-load"><pre>  New Load</pre> </a>
+            </li>
+            <li>
+              <a href="" routerLink="loads"><pre>  Loads</pre> </a>
+            </li>
+            <li>
+              <a href="" routerLink="transshipment"><pre>  Track your shipment</pre> </a>
+            </li>
+            <li>
+              <a href="" routerLink="insurance"><pre>  Insurance</pre> </a>
+            </li>
+
+          </ul>
+
+        </li>
+        <li>
+          <h3>Administration</h3>
+          <ul class="ulType">
+            <li>
+              <a href="" routerLink="payroll"><pre>  Payroll</pre> </a>
+            </li>
+            <li>
+              <a href="" routerLink="agent-history"><pre>  Agent History</pre></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="myPage">
+    <div class="myAccount">
+        <app-my-acount></app-my-acount>
+    </div>
+
+    <div class="result">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</div>

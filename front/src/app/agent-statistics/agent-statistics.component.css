@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.work {
+  display: inline-block;
+  width: 50%;
+  height: 98%;
+  border-right: 2px solid grey;
+  overflow: scroll;
+}
+.workOut {
+  display: inline-block;
+  width: 50%;
+  height: 98%;
+  overflow: scroll;
+}
+
+table  {
+  width: 100%;
+  border-top: 2px solid grey;
+  text-align: center;
+  padding: 10px;
+  margin: auto auto 20px;
+}
