@@ -3,6 +3,7 @@ const router             = express.Router();
 const connectEnsureLogin = require('connect-ensure-login');
 const passport           = require('passport');
 const Users              = require('../models/users');
+const Loads              = require('../models/loads');
 
 // GET Routes
 router.get('/', (req, res) => {

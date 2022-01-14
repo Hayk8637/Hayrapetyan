@@ -4,6 +4,7 @@ const app            = express();
 const passport       = require('passport');
 const session        = require('express-session');
 const Users          = require('./models/users');
+const Loads          = require('./models/loads');
 const router         = require('./routes/routes');
 require('dotenv').config();
 const env = process.env;
