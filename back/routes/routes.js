@@ -37,7 +37,14 @@ router.post(
 
 router.post('/signup', (req, res, next) => {
   Users.register(
-    new Users({username: req.body.username, email: req.body.email}),
+    new Users({
+        name: req.body.username,
+        email: req.body.email,
+        surname: req.body.surname,
+        profit: req.body.profit,
+        dataTo: req.body.dataTo,
+        dataOff: req.body.dataOff
+    }),
     req.body.password,
 
     (err, account) => {

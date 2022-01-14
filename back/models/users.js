@@ -10,13 +10,12 @@ mongoose.connect(process.env.MONGODB_URL, {
 
 // Setting up the schema
 const Users = new mongoose.Schema({
-  username: {type: String, required: true, unique: true},
   name: {type: String, required: true},
   surname: {type: String, required: true},
   password: {type: String, required: true},
   profit: {type: Number, required: true},
   dataTo: {type: Number , required: true},
-  dataOff: {type: Number , required: true},
+  dataOff: {type: Number , required: false},
   email   : {type: String, unique: true, required: true},
   admin   : {type: Boolean, default: false}
 });
