@@ -1,7 +1,7 @@
 
 <div class="all">
   <div class="agents" [ngClass]="this.i">
-    <button class="btn btn-primary "  (click)="add()">Add Agent</button>
+    <button class="btn btn-primary "  (click)="cancelAdd()">Add Agent</button>
     <table style="color: #3b4097">
       <tr>
         <th>Name</th>
@@ -38,17 +38,17 @@
 
 
 
-
+  <form action="" [formGroup] = "addAgent">
   <div  class="add"  [ngClass]="this.p">
-    <h3 style="color: #3b4097">Add Agent</h3>
-    <input class="alert alert-primary" type="text" placeholder="Name">
-    <input class="alert alert-primary" type="text" placeholder="Surname">
-    <input class="alert alert-primary" type="email" placeholder="E-Mail">
-    <input class="alert alert-primary" type="password" placeholder="Password">
-    <input class="alert alert-primary" type="password" placeholder="Password">
-    <button class="btn btn-primary">Add</button>
-    <button class="btn btn-danger" (click)="add()">Cancel</button>
-  </div>
-
+      <h3 style="color: #3b4097">Add Agent</h3>
+      <input class="alert alert-primary" type="text" placeholder="Name" formcontrolname="name">
+      <input class="alert alert-primary" type="text" placeholder="Surname" formcontrolname="surname">
+      <input class="alert alert-primary" type="email" placeholder="E-Mail" formcontrolname="email">
+      <input class="alert alert-primary" type="password" placeholder="Password" formcontrolname="password">
+<!--      <input class="alert alert-primary" type="password" placeholder="Password" formcontrolname="password1">-->
+      <button class="btn btn-primary" (click)="cancelAdd()">Add</button>
+      <button class="btn btn-danger" (click)="cancelAdd()">Cancel</button>
+    </div>
+  </form>
 
 </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-agents',
@@ -8,11 +9,20 @@ import { Component, OnInit } from '@angular/core';
 export class AgentsComponent implements OnInit {
   i = 'inline';
   p = 'none';
+
+  addAgent = new FormGroup({
+    name: new FormControl('' , [Validators.minLength(1) , Validators.required]),
+    surname: new FormControl('' , [Validators.minLength(1) , Validators.required]),
+    email: new FormControl('' , [Validators.email , Validators.required]),
+    password: new FormControl('' , [Validators.minLength(8) , Validators.required]),
+    // password1: new FormControl('' , [Validators.minLength(8) , Validators.required])
+  });
+
   constructor() { }
 
   ngOnInit() {
   }
-  add() {
+  cancelAdd() {
     if (this.i === 'none') {
       this.i = 'inline';
       this.p = 'none';

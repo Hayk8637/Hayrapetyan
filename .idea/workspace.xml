@@ -6,8 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="8f6ce7a7-ca27-4d95-a5b9-9da009dcd151" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/models/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/routes/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/agent-statistics/agent-statistics.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agent-statistics/agent-statistics.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/agents/agents.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agents/agents.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/agents/agents.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agents/agents.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/agents/agents.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agents/agents.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/gps/gps.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/gps/gps.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/insurance/insurance.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/insurance/insurance.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/load/load.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/load/load.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/log-in/log-in.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/log-in/log-in.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/my-acount/my-acount.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/my-acount/my-acount.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/my-page/my-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/my-page/my-page.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/new-load/new-load.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/new-load/new-load.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/payroll/payroll.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/payroll/payroll.component.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +61,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.18.5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yosoy.am" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -87,7 +100,14 @@
       <workItem from="1642066544182" duration="37000" />
       <workItem from="1642066596578" duration="860000" />
       <workItem from="1642067488009" duration="1460000" />
-      <workItem from="1642173431302" duration="4281000" />
+      <workItem from="1642173431302" duration="4681000" />
+      <workItem from="1642185165890" duration="595000" />
+      <workItem from="1642246062889" duration="35000" />
+      <workItem from="1642246561951" duration="15000" />
+      <workItem from="1642249791169" duration="8306000" />
+      <workItem from="1642323292825" duration="3447000" />
+      <workItem from="1642326786306" duration="151000" />
+      <workItem from="1642326979749" duration="1232000" />
     </task>
     <servers />
   </component>
