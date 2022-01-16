@@ -9,7 +9,6 @@ import { AgentsComponent } from './agents/agents.component';
 import { NewLoadComponent } from './new-load/new-load.component';
 import { PayrollComponent } from './payroll/payroll.component';
 import { MyAcountComponent } from './my-acount/my-acount.component';
-import {AgentStatisticsComponent} from './agent-statistics/agent-statistics.component';
 import { LoadComponent } from './load/load.component';
 import { GpsComponent } from './gps/gps.component';
 import { InsuranceComponent } from './insurance/insurance.component';
@@ -25,7 +24,6 @@ import {ReactiveFormsModule} from '@angular/forms';
     AgentsComponent,
     NewLoadComponent,
     PayrollComponent,
-    AgentStatisticsComponent,
     MyAcountComponent,
     LoadComponent,
     GpsComponent,

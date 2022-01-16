@@ -2,9 +2,9 @@
   <h2 style="color: #3b4097">Loads</h2>
 </div>
 
-<div class="search">
+<div class="search" [formGroup] = "load">
   <div class="input-group mb-3">
-    <input type="text" class="form-control alert alert-primary" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <input type="text" formcontrolname="search" class="form-control alert alert-primary" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
     <div class="input-group-append">
       <button class="btn  btn-primary " type="button">Button</button>
     </div>
