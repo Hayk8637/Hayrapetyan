@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f6ce7a7-ca27-4d95-a5b9-9da009dcd151" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/agent-statistics/agent-statistics.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agent-statistics/agent-statistics.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/agents/agents.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agents/agents.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/agents/agents.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agents/agents.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/agents/agents.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agents/agents.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/gps/gps.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/gps/gps.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/insurance/insurance.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/insurance/insurance.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/load/load.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/load/load.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/log-in/log-in.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/log-in/log-in.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/my-acount/my-acount.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/my-acount/my-acount.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/my-page/my-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/my-page/my-page.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/new-load/new-load.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/new-load/new-load.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/payroll/payroll.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/payroll/payroll.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/load/load.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/load/load.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/load/load.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/load/load.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +94,7 @@
       <workItem from="1642249791169" duration="8306000" />
       <workItem from="1642323292825" duration="3447000" />
       <workItem from="1642326786306" duration="151000" />
-      <workItem from="1642326979749" duration="1232000" />
+      <workItem from="1642326979749" duration="1553000" />
     </task>
     <servers />
   </component>
