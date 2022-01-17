@@ -17,12 +17,14 @@ import {InsuranceComponent} from './insurance/insurance.component';
 const routes: Routes = [
   { path: '' , component: LogInComponent },
   { path: 'my-page'  , component: MyPageComponent , children: [    // , canActivate:  [AuthGuard]
+      {path: '' , component: NewLoadComponent},
       {path: 'agents' , component: AgentsComponent},
       {path: 'new-load' , component: NewLoadComponent} ,
       {path: 'payroll' , component: PayrollComponent},
       {path: 'loads'  , component: LoadComponent},
       {path: 'insurance'  , component: InsuranceComponent},
       {path: 'transshipment'  , component: GpsComponent},
+      {path: '**' , component: NewLoadComponent}
     ]},
   { path: '**' , component: LogInComponent}
 ];

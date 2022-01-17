@@ -44,7 +44,7 @@
   </div>
   <div class="b" *ngIf="this.i === 4">
     <button class="btn btn-primary" type="submit" [disabled]="!newLoad.valid">Add New Load</button>
-    <button class="btn btn-danger cancel">Cancel</button>
+    <button class="btn btn-danger cancel" (click)="clearAll()">Clear All</button>
   </div>
 
    <div class="pagination">
