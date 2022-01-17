@@ -1,49 +1,52 @@
 <h2 style="color: #3b4097">Add your load</h2>
 
 <div class="add">
-  <div class="customer" *ngIf="this.i === 0">
+  <form action="" [formGroup]="newLoad">
+
+
+  <div class="customer" *ngIf="this.i === 0" formGroupName="customer">
     <h3 style="color: #3b4097">Customer Info</h3>
-    <input class="alert alert-primary" type="text" placeholder="Name">
-    <input class="alert alert-primary" type="text" placeholder="MC">
-    <input class="alert alert-primary" type="text" placeholder="Reference Number">
-    <input class="alert alert-primary" type="text" placeholder="Rate">
-    <input class="alert alert-primary" type="text" placeholder="Contact">
+    <input class="alert alert-primary" type="text" formControlName="name" placeholder="Name">
+    <input class="alert alert-primary" type="text" formControlName="mc" placeholder="MC">
+    <input class="alert alert-primary" type="text" formControlName="referenceNumber" placeholder="Reference Number">
+    <input class="alert alert-primary" type="text" formControlName="rate" placeholder="Rate">
+    <input class="alert alert-primary" type="text" formControlName="contact" placeholder="Contact">
   </div>
-  <div class="carrier" *ngIf="this.i === 1">
+  <div class="carrier" *ngIf="this.i === 1" formGroupName="carrier">
     <h3 style="color: #3b4097">Carrier Info</h3>
-    <input class="alert alert-primary" type="text" placeholder="Name">
-    <input class="alert alert-primary" type="text" placeholder="MC">
-    <input class="alert alert-primary" type="text" placeholder="Rate">
-    <input class="alert alert-primary" type="text" placeholder="Contact">
+    <input class="alert alert-primary" type="text" formControlName="name" placeholder="Name">
+    <input class="alert alert-primary" type="text" formControlName="mc" placeholder="MC">
+    <input class="alert alert-primary" type="text" formControlName="rate" placeholder="Rate">
+    <input class="alert alert-primary" type="text" formControlName="contact" placeholder="Contact">
   </div>
-  <div class="pickUp" *ngIf="this.i === 2">
+  <div class="pickUp" *ngIf="this.i === 2" formGroupName="pickUp">
     <h3 style="color: #3b4097">Pick Up Info</h3>
-    <input class="alert alert-primary" type="text" placeholder="Date">
-    <input class="alert alert-primary" type="text" placeholder="Time">
-    <input class="alert alert-primary" type="text" placeholder="Name">
-    <input class="alert alert-primary" type="text" placeholder="Address">
-    <input class="alert alert-primary" type="text" placeholder="City">
-    <input class="alert alert-primary" type="text" placeholder="Zip">
+    <input class="alert alert-primary" type="text" formControlName="date" placeholder="Date">
+    <input class="alert alert-primary" type="text" formControlName="time" placeholder="Time">
+    <input class="alert alert-primary" type="text" formControlName="name" placeholder="Name">
+    <input class="alert alert-primary" type="text" formControlName="address" placeholder="Address">
+    <input class="alert alert-primary" type="text" formControlName="city" placeholder="City">
+    <input class="alert alert-primary" type="text" formControlName="zip" placeholder="Zip">
   </div>
-  <div class="delivery" *ngIf="this.i === 3" >
+  <div class="delivery" *ngIf="this.i === 3" formGroupName="delivery">
     <h3 style="color: #3b4097">Delivery Info</h3>
-    <input class="alert alert-primary" type="text" placeholder="Date">
-    <input class="alert alert-primary" type="text" placeholder="Time">
-    <input class="alert alert-primary" type="text" placeholder="Name">
-    <input class="alert alert-primary" type="text" placeholder="Address">
-    <input class="alert alert-primary" type="text" placeholder="City">
-    <input class="alert alert-primary" type="text" placeholder="Zip">
+    <input class="alert alert-primary" type="text" formControlName="date" placeholder="Date">
+    <input class="alert alert-primary" type="text" formControlName="time" placeholder="Time">
+    <input class="alert alert-primary" type="text" formControlName="name" placeholder="Name">
+    <input class="alert alert-primary" type="text" formControlName="address" placeholder="Address">
+    <input class="alert alert-primary" type="text" formControlName="city" placeholder="City">
+    <input class="alert alert-primary" type="text" formControlName="zip" placeholder="Zip">
   </div>
-  <div class="loadInfo" *ngIf="this.i === 4">
+  <div class="loadInfo" *ngIf="this.i === 4" formGroupName="loadInfo">
     <h3 style="color: #3b4097">Load Info</h3>
-    <input class="alert alert-primary" type="text" placeholder="Weight">
-    <input class="alert alert-primary" type="text" placeholder="Commodity">
-    <input class="alert alert-primary" type="text" placeholder="Type">
-    <input class="alert alert-primary" type="text" placeholder="Distance">
+    <input class="alert alert-primary" type="text" formControlName="weight" placeholder="Weight">
+    <input class="alert alert-primary" type="text" formControlName="commodity" placeholder="Commodity">
+    <input class="alert alert-primary" type="text" formControlName="type" placeholder="Type">
+    <input class="alert alert-primary" type="text" formControlName="distance" placeholder="Distance">
   </div>
   <div class="b" *ngIf="this.i === 4">
-    <button class="btn btn-primary ">Add New Load</button>
-    <button class="btn btn-danger cancel" >Cancel</button>
+    <button class="btn btn-primary" type="submit" [disabled]="!newLoad.valid">Add New Load</button>
+    <button class="btn btn-danger cancel">Cancel</button>
   </div>
 
    <div class="pagination">
@@ -68,7 +71,7 @@
        </ul>
      </nav>
    </div>
-
+  </form>
 </div>
 
 

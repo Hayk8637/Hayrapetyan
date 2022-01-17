@@ -1,9 +1,9 @@
 <h3>Insurance</h3>
 
-<div class="form" >
-  <input class="input alert alert-primary" type="text" placeholder="Insurance provider">
-  <input class="input alert alert-primary" type="text" placeholder="Load ID" >
-  <input class="input alert alert-primary" type="email" placeholder="E-Mail">
-  <input class="apply alert alert-primary" type="file" placeholder="Insurance document (.pdf one doc)">
-  <button class=" applyButton btn btn-primary">Apply</button>
-</div>
+<form action="" [formGroup]="insurance"  class="form" >
+  <input formControlName="insuranceProvider" class="input alert alert-primary" type="text" placeholder="Insurance provider">
+  <input formControlName="loadId" class="input alert alert-primary" type="text" placeholder="Load ID" >
+  <input formControlName="email" class="input alert alert-primary" type="email" placeholder="E-Mail">
+  <input formControlName="doc" class="apply alert alert-primary" type="file" placeholder="Insurance document (.pdf one doc)">
+  <button class=" applyButton btn btn-primary" [disabled]="!insurance.valid">Apply</button>
+</form>
