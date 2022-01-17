@@ -11,19 +11,19 @@ export class AgentsComponent implements OnInit {
   p = 'none';
 
 addAgent = new FormGroup({
-  name : new FormControl('', [Validators.minLength(2) ]),
-  surname : new FormControl('' , [Validators.minLength(2) ]),
-  email : new FormControl('' , [Validators.email ]),
-  password : new FormControl('' , [Validators.minLength(8) ]),
+  name : new FormControl('', [Validators.minLength(2)  , Validators.required ]),
+  surname : new FormControl('' , [Validators.minLength(2) , Validators.required ]),
+  email : new FormControl('' , [Validators.email , Validators.required]),
+  password : new FormControl('' , [Validators.minLength(8) , Validators.required]),
 });
 
   constructor() {
 
     this.addAgent = new FormGroup({
-      name : new FormControl('', [Validators.minLength(2) ]),
-      surname : new FormControl('' , [Validators.minLength(2) ]),
-      email : new FormControl('' , [Validators.email ]),
-      password : new FormControl('' , [Validators.minLength(8) ]),
+      name : new FormControl('', [Validators.minLength(2) , Validators.required]),
+      surname : new FormControl('' , [Validators.minLength(2), Validators.required ]),
+      email : new FormControl('' , [Validators.email , Validators.required]),
+      password : new FormControl('' , [Validators.minLength(8), Validators.required ]),
     });
   }
 

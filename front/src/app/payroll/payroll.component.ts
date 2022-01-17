@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-payroll',
@@ -6,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./payroll.component.css']
 })
 export class PayrollComponent implements OnInit {
-
-  constructor() { }
+  search = new FormGroup({
+    search: new FormControl('' , [ Validators.required]),
+  });
+  constructor() {
+    this.search = new FormGroup({
+      search: new FormControl('' , [ Validators.required]),
+    });
+  }
 
   ngOnInit() {
   }
