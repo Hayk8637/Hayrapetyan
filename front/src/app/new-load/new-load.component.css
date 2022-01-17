@@ -7,13 +7,13 @@
 .add {
   overflow: hidden;
 }
-.add > div {
+.add > form > div {
   margin: auto;
   width: 800px;
 
 }
 
-.add > div > input {
+.add> form > div > input {
   display: block;
   width: 80%;
   border: none;
