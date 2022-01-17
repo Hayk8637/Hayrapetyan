@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators } from '@angular/forms';
+import {AgentsService} from '../services/agents.service';
 
 @Component({
   selector: 'app-agents',
@@ -17,7 +18,7 @@ addAgent = new FormGroup({
   password : new FormControl('' , [Validators.minLength(8) , Validators.required]),
 });
 
-  constructor() {
+  constructor(agentsService: AgentsService) {
 
     this.addAgent = new FormGroup({
       name : new FormControl('', [Validators.minLength(2) , Validators.required]),

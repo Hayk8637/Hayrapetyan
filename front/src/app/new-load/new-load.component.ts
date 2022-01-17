@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
+import {NewLoadService} from '../services/new-load.service';
 
 @Component({
   selector: 'app-new-load',
@@ -45,7 +46,8 @@ export class NewLoadComponent implements OnInit {
       distance: new FormControl('' , [Validators.required])
     })
   });
-  constructor() { }
+  constructor(newLoadService: NewLoadService) {
+  }
 
   ngOnInit() {
   }

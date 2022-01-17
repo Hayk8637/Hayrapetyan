@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
+import {PayrollService} from '../services/payroll.service';
 
 @Component({
   selector: 'app-payroll',
@@ -10,7 +11,7 @@ export class PayrollComponent implements OnInit {
   search = new FormGroup({
     search: new FormControl('' , [ Validators.required]),
   });
-  constructor() {
+  constructor(payrollService: PayrollService) {
     this.search = new FormGroup({
       search: new FormControl('' , [ Validators.required]),
     });
