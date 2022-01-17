@@ -10,17 +10,28 @@ export class AgentsComponent implements OnInit {
   i = 'inline';
   p = 'none';
 
-  addAgent = new FormGroup({
-    name: new FormControl('' , [Validators.minLength(1) , Validators.required]),
-    surname: new FormControl('' , [Validators.minLength(1) , Validators.required]),
-    email: new FormControl('' , [Validators.email , Validators.required]),
-    password: new FormControl('' , [Validators.minLength(8) , Validators.required]),
-    // password1: new FormControl('' , [Validators.minLength(8) , Validators.required])
-  });
+addAgent = new FormGroup({
+  name : new FormControl('', [Validators.minLength(2) ]),
+  surname : new FormControl('' , [Validators.minLength(2) ]),
+  email : new FormControl('' , [Validators.email ]),
+  password : new FormControl('' , [Validators.minLength(8) ]),
+});
 
-  constructor() { }
+  constructor() {
+
+    this.addAgent = new FormGroup({
+      name : new FormControl('', [Validators.minLength(2) ]),
+      surname : new FormControl('' , [Validators.minLength(2) ]),
+      email : new FormControl('' , [Validators.email ]),
+      password : new FormControl('' , [Validators.minLength(8) ]),
+    });
+  }
 
   ngOnInit() {
+  }
+  add() {
+    console.log(this.addAgent
+    );
   }
   cancelAdd() {
     if (this.i === 'none') {

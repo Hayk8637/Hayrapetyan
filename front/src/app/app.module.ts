@@ -13,7 +13,7 @@ import { LoadComponent } from './load/load.component';
 import { GpsComponent } from './gps/gps.component';
 import { InsuranceComponent } from './insurance/insurance.component';
 import {AngularYandexMapsModule} from 'angular8-yandex-maps';
-import {ReactiveFormsModule} from '@angular/forms';
+import {ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({

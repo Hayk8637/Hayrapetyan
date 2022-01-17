@@ -12,7 +12,12 @@ export class LogInComponent implements OnInit {
     email: new FormControl('' , [Validators.email , Validators.required]),
     password: new FormControl('' , [Validators.required , Validators.minLength(8)]),
   });
-  constructor(public authService: AuthService) { }
+  constructor(public authService: AuthService) {
+    this.logIn = new FormGroup({
+      email: new FormControl('' , [Validators.email , Validators.required]),
+      password: new FormControl('' , [Validators.required , Validators.minLength(8)]),
+    });
+  }
 
   ngOnInit() {
   }

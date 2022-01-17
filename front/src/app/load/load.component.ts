@@ -9,8 +9,12 @@ import {FormControl, FormGroup , Validators } from '@angular/forms';
 export class LoadComponent implements OnInit {
   load = new FormGroup({
     search: new FormControl('' , [ Validators.required ])
-  })
-  constructor() { }
+  });
+  constructor() {
+    this.load = new FormGroup({
+      search: new FormControl('' , [ Validators.required ])
+    });
+  }
 
   ngOnInit() {
   }
