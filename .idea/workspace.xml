@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f6ce7a7-ca27-4d95-a5b9-9da009dcd151" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/agents/agents.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agents/agents.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/agents/agents.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/agents/agents.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/my-acount/my-acount.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/my-acount/my-acount.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/my-page/my-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/my-page/my-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/new-load/new-load.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/new-load/new-load.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/load/load.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/load/load.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +99,7 @@
       <workItem from="1642404630539" duration="25000" />
       <workItem from="1642427487954" duration="3738000" />
       <workItem from="1642431349784" duration="106000" />
+      <workItem from="1643200261204" duration="4442000" />
     </task>
     <servers />
   </component>
