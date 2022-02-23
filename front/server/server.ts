@@ -37,6 +37,7 @@ server.post('/register', (req, res) => {
 });
 
 
+
 server.use('/agents', (req, res, next) => {
   if (isAuthorized(req) || req.query.bypassAuth === 'true') {
     next();
@@ -44,6 +45,8 @@ server.use('/agents', (req, res, next) => {
     res.sendStatus(401);
   }
 });
+
+
 
 server.use(router);
 server.listen(3000, () => {
@@ -71,4 +74,9 @@ function isAuthorized(req) {
 function readUsers() {
   const dbRaw = fs.readFileSync('./server/db.json');
   return JSON.parse(dbRaw).agents;
+}
+
+function readLoads() {
+  const dbRaw = fs.readFileSync('./server/db.json');
+  return JSON.parse(dbRaw).loads;
 }

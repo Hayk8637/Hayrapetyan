@@ -14,6 +14,7 @@ import { GpsComponent } from './gps/gps.component';
 import { InsuranceComponent } from './insurance/insurance.component';
 import {AngularYandexMapsModule} from 'angular8-yandex-maps';
 import {ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import {ReactiveFormsModule} from '@angular/forms';
         BrowserModule,
         AppRoutingModule,
         AngularYandexMapsModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        HttpClientModule
     ],
   providers: [],
   bootstrap: [AppComponent]

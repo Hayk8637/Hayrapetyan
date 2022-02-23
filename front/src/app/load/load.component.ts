@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup , Validators } from '@angular/forms';
 import {LoadService} from '../services/load.service';
+import {Load} from '../../interfaces';
+import {Subscription} from 'rxjs';
 
 @Component({
   selector: 'app-load',
@@ -15,6 +17,7 @@ export class LoadComponent implements OnInit {
     this.load = new FormGroup({
       search: new FormControl('' , [ Validators.required ])
     });
+    console.log(loadService.getLoads());
   }
 
   ngOnInit() {
