@@ -4,7 +4,7 @@
     <form action="" [formGroup]="logIn">
       <input formControlName="email" class="alert alert-primary" type="email" placeholder="E-Mail">
       <input formControlName="password" class="alert alert-primary" type="password" placeholder="Password">
-      <button class="btn btn-primary "  [disabled]="!logIn.valid"  type="submit" routerLink="my-page" >Log In</button>
+      <button class="btn btn-primary "  [disabled]="!logIn.valid" (click)="LogIn(logIn)"  type="submit" routerLink="my-page" >Log In</button>
     </form>
   </div>
 </div>

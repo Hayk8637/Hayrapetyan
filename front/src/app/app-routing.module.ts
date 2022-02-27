@@ -16,7 +16,8 @@ import {InsuranceComponent} from './insurance/insurance.component';
 
 const routes: Routes = [
   { path: '' , component: LogInComponent },
-  { path: 'my-page'  , component: MyPageComponent , children: [    // , canActivate:  [AuthGuard]
+  { path: 'my-page'  , component: MyPageComponent , canActivate: [AuthGuard] ,
+    children: [
       {path: '' , component: NewLoadComponent},
       {path: 'agents' , component: AgentsComponent},
       {path: 'new-load' , component: NewLoadComponent} ,

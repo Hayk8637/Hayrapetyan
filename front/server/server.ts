@@ -15,7 +15,8 @@ server.post('/login', (req, res, next) => {
   )[0];
 
   if (agent) {
-    res.send({ ...formatUser(agent), token: checkIfAdmin(agent) });
+    res.send(true);
+    // res.send({ ...formatUser(agent), token: checkIfAdmin(agent) });
   } else {
     res.status(401).send('Incorrect username or password');
   }

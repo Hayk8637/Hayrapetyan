@@ -1,24 +1,22 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import {RouterLink} from '@angular/router';
-
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
 
   isLoggedIn = false;
-  user = {
-    e: 'a@a',
-    p: 'aaaaaaaa'
-  };
 
-  login(p) {
-    this.isLoggedIn = true;
-    return true;
+
+  LogIn(s) {
+    if ( s === true ){
+     this.isLoggedIn = true;
+    }
   }
 
 
-  logout(): boolean {
+  logOut(): boolean {
     this.isLoggedIn = false;
     return true;
   }
