@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f6ce7a7-ca27-4d95-a5b9-9da009dcd151" name="Changes" comment="" />
+    <list default="true" id="8f6ce7a7-ca27-4d95-a5b9-9da009dcd151" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/models/loads.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/models/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/routes/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/views/layout/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/views/layout/login.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/views/layout/main.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/views/layout/secret.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/services/new-load.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/services/new-load.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/services/payroll.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/services/payroll.service.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +114,8 @@
       <workItem from="1642431349784" duration="106000" />
       <workItem from="1643200261204" duration="4442000" />
       <workItem from="1643459594459" duration="197000" />
+      <workItem from="1645962491886" duration="275000" />
+      <workItem from="1645962796713" duration="798000" />
     </task>
     <servers />
   </component>
